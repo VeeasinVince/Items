@@ -46,7 +46,7 @@
 //2. input coordinate y1
 //3. inpout coordinate x2
 //4. inout coordinate y2
-//
+
 //operator<<():
 //1. output name
 //2. output coordinates for bottom left
@@ -55,7 +55,7 @@
 //5. output cooridntaes for upper left
 //6. output perimeter
 //7. output area
-//
+
 //operator+():
 //1. define addRect to assign to return
 //2. Combine name of left with right
@@ -64,7 +64,7 @@
 //  b. assign values if 2nd is located in lower left
 //  c. assign values if 2nd is located in upper left
 //  d. assign values if 2nd is located in lower right
-// 
+
 //operator-():
 //1. define subRect to assign to return
 //2. Depending on where the second rectangle is:
