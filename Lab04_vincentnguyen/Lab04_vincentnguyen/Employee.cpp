@@ -13,7 +13,7 @@ Employee::Employee()
 	cout << "Employee number:" << number << ", " << name << " was hired " << hireDate << "." << endl;
 }
 
-Employee::Employee(string n, int i, string d)
+Employee::Employee(string n, int i, string d) :name(n), number(i), hireDate(d)
 {
 	name = n;
 	number = i;

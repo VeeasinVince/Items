@@ -21,7 +21,7 @@ public:
 	int getShift();
 	double getHourRate();
 
-	string whatShift(int s);
+	virtual string whatShift(int s);
 
 	~ProductionWorker();
 };

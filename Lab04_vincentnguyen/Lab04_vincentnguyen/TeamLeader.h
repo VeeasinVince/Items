@@ -15,6 +15,7 @@ private:
 public:
 
 	TeamLeader();
+	TeamLeader(string n, int i, string d, int s, double h, double b, int need, int have);
 
 	void setMonBonus(double b);
 	void setNeedHr(int n);
