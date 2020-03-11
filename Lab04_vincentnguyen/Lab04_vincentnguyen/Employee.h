@@ -26,6 +26,9 @@ public:
 	int getNumber();
 	string getHireDate();
 
+	virtual void lunch();
+	void lunch(string n);
+
 
 
 	~Employee();

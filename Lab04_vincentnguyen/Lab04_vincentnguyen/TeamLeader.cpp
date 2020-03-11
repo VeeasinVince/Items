@@ -4,16 +4,19 @@
 
 using namespace std;	//delete later
 
-TeamLeader::TeamLeader()
+TeamLeader::TeamLeader() 
 {
 	monBonus = 0.0;
 	needHr = 0;
 	haveHr = 0;
+
+	cout << "Their monthly bonus is $" << 0 << ". The required hours of training for " << "a ghost" << " is " << 0 << " hours and they have " << 0 << " hours." << endl;
+	cout << "They like to haunt the factory." << endl;
 }
 
 TeamLeader::TeamLeader(string n, int i, string d, int s, double h, double b, int need, int have) :ProductionWorker(n, i, d, s, h)
 {
-	cout << "Employee number:" << i << ", " << n << " was hired " << d << ". They have a " << whatShift(s) << " shift and work for $" << h << "/hour.Their monthly bonus is $" << b << ". The required hours of training for " << n << " is "
+	cout << "Their monthly bonus is $" << b << ". The required hours of training for " << n << " is "
 		<< need << " hours and they have " << have << " hours." << endl;
 
 	if (have < need)
@@ -23,6 +26,21 @@ TeamLeader::TeamLeader(string n, int i, string d, int s, double h, double b, int
 	else
 	{
 		cout << "They have meet the required amount of " << need << " training hours. " << n << " gets to keep their job!" << endl;
+	}
+}
+
+TeamLeader::TeamLeader(string n, int i, string d) :ProductionWorker(n, i, d), monBonus(25), needHr(10), haveHr(0)
+{
+	cout << "Their monthly bonus is $" << monBonus << ". The required hours of training for " << n << " is "
+		<< needHr << " hours and they have " << haveHr << " hours." << endl;
+
+	if (haveHr < needHr)
+	{
+		cout << "They do not have the required training hours. " << needHr << " has been fired and will not be missed!" << endl;
+	}
+	else
+	{
+		cout << "They have meet the required amount of " << needHr << " training hours. " << n << " gets to keep their job!" << endl;
 	}
 }
 
@@ -54,6 +72,11 @@ int TeamLeader::getNeedHr()
 int TeamLeader::getHaveHr()
 {
 	return haveHr;
+}
+
+void TeamLeader::lunch()
+{
+	cout << "This team leader is having lunch right now." << endl;
 }
 
 TeamLeader::~TeamLeader()

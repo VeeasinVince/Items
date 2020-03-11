@@ -14,6 +14,7 @@ private:
 public:
 	ProductionWorker();
 	ProductionWorker(string n, int i, string d, int s, double h);
+	ProductionWorker(string n, int i, string d);
 
 	void setShift(int s);
 	void setHourRate(double r);
@@ -22,7 +23,7 @@ public:
 	double getHourRate();
 
 	virtual string whatShift(int s);
+	void lunch();
 
 	~ProductionWorker();
 };
-

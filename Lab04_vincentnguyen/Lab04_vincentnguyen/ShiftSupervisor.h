@@ -16,6 +16,7 @@ private:
 public:
 	ShiftSupervisor();
 	ShiftSupervisor(string n, int i, string d, double a, double b, int p);
+	ShiftSupervisor(string n, int i, string d);
 
 	void setAnuSal(double a);
 	void setProBonus(double b);
@@ -24,6 +25,8 @@ public:
 	double getAnuSal();
 	double getProBonus();
 	int getProduction();
+
+	void lunch();
 
 
 	~ShiftSupervisor();

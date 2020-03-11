@@ -6,18 +6,12 @@ using namespace std; //delete later
 
 Employee::Employee()
 {
-	name = "a ghost";
-	number = 0;
-	hireDate = "never";
 
-	cout << "Employee number:" << number << ", " << name << " was hired " << hireDate << "." << endl;
+	cout << "Employee number:0, a ghost was hired never." << endl;
 }
 
 Employee::Employee(string n, int i, string d) :name(n), number(i), hireDate(d)
 {
-	name = n;
-	number = i;
-	hireDate = d;
 
 	cout << "Employee number:" << number << ", " << name << " was hired " << hireDate << "." << endl;
 
@@ -51,6 +45,16 @@ int Employee::getNumber()
 string Employee::getHireDate()
 {
 	return hireDate;
+}
+
+void Employee::lunch()
+{
+	cout << "This employee is having lunch right now." << endl;
+}
+
+void Employee::lunch(string n)
+{
+	cout << n << " is having lunch right now." << endl;
 }
 
 Employee::~Employee()
