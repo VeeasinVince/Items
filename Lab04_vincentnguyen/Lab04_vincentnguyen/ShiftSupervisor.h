@@ -3,8 +3,6 @@
 #include <string>
 #include "Employee.h"
 
-using namespace std;	//delete later
-
 class ShiftSupervisor : public Employee {
 
 private:
@@ -14,19 +12,19 @@ private:
 
 
 public:
-	ShiftSupervisor();
-	ShiftSupervisor(string n, int i, string d, double a, double b, int p);
-	ShiftSupervisor(string n, int i, string d);
+	ShiftSupervisor();			//constructors
+	ShiftSupervisor(std::string n, int i, std::string d, double a, double b, int p);
+	ShiftSupervisor(std::string n, int i, std::string d);
 
-	void setAnuSal(double a);
+	void setAnuSal(double a);		//setters
 	void setProBonus(double b);
 	void setProduction(int p);
 
-	double getAnuSal();
+	double getAnuSal();			//getters
 	double getProBonus();
 	int getProduction();
 
-	void lunch();
+	void lunch();					//Shift Supervsior's lunch function
 
 
 	~ShiftSupervisor();

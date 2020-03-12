@@ -3,8 +3,6 @@
 #include <string>
 #include "Employee.h"
 
-using namespace std;	//delete later
-
 class ProductionWorker : public Employee {
 
 private:
@@ -12,18 +10,18 @@ private:
 	double hourRate;
 
 public:
-	ProductionWorker();
-	ProductionWorker(string n, int i, string d, int s, double h);
-	ProductionWorker(string n, int i, string d);
+	ProductionWorker();		//Constructors, some are overloaded
+	ProductionWorker(std::string n, int i, std::string d, int s, double h);
+	ProductionWorker(std::string n, int i, std::string d);
 
-	void setShift(int s);
+	void setShift(int s);		//setters
 	void setHourRate(double r);
 
-	int getShift();
+	int getShift();		//getters
 	double getHourRate();
 
-	virtual string whatShift(int s);
-	void lunch();
+	std::string whatShift(int s);	//whatShift determines whether 'day' or 'night' will be printed
+	void lunch();		//Product Worker's lunch function
 
 	~ProductionWorker();
 };

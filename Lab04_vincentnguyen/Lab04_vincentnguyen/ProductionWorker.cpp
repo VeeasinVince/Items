@@ -2,24 +2,22 @@
 #include <string>
 #include "ProductionWorker.h"
 
-using namespace std; //delete later
-
-ProductionWorker::ProductionWorker()
+ProductionWorker::ProductionWorker() :shift(0), hourRate(0)
 {
-
-	cout <<"They have a " << whatShift(1) << " shift and work for $" << 0 << "/hour." << endl;
+	
+	std::cout <<"They have a " << whatShift(1) << " shift and work for $" << 0 << "/hour." << std::endl;
 }
 
-ProductionWorker::ProductionWorker(string n, int i, string d, int s, double h) : shift(s), hourRate(h) , Employee(n, i, d)
+ProductionWorker::ProductionWorker(std::string n, int i, std::string d, int s, double h) : shift(s), hourRate(h) , Employee(n, i, d)		//Initialization list syntax
 {
 
 
-	cout << "They have a " << whatShift(shift) << " shift and work for $" << hourRate << "/hour." << endl;
+	std::cout << "They have a " << whatShift(shift) << " shift and work for $" << hourRate << "/hour." << std::endl;
 }
 
-ProductionWorker::ProductionWorker(string n, int i, string d) : shift(1), hourRate(50), Employee(n, i, d)
+ProductionWorker::ProductionWorker(std::string n, int i, std::string d) : shift(1), hourRate(50), Employee(n, i, d)		//Initialization list syntax
 {
-	cout << "They have a " << whatShift(shift) << " shift and work for $" << hourRate << "/hour." << endl;
+	std::cout << "They have a " << whatShift(shift) << " shift and work for $" << hourRate << "/hour." << std::endl;
 }
 
 void ProductionWorker::setShift(int s)
@@ -42,7 +40,7 @@ double ProductionWorker::getHourRate()
 	return hourRate;
 }
 
-string ProductionWorker::whatShift(int s)
+std::string ProductionWorker::whatShift(int s)
 {
 	if (s == 1)
 	{
@@ -53,10 +51,10 @@ string ProductionWorker::whatShift(int s)
 		return "night";
 	}
 }
-
+//Lunch function
 void ProductionWorker::lunch()
 {
-	cout << "This Production Worker is having lunch right now." << endl;
+	std::cout << "This Production Worker is having lunch right now." << std::endl;
 }
 
 ProductionWorker::~ProductionWorker()

@@ -2,33 +2,30 @@
 #include <iostream>
 #include <string>
 
-using namespace std;	//delete later
-
-
 class Employee {
 
-private:
-	string name;
+private:		//Employee variables
+	std::string name;
 	int number;
-	string hireDate;
+	std::string hireDate;
 
 public:
-	Employee();
-	Employee(string n, int i, string d);
+	Employee();									//constructors
+	Employee(std::string n, int i, std::string d);
 
 	//setters
-	void setName(string n);
+	void setName(std::string n);
 	void setNumber(int n);
-	void setHireDate(string d);
+	void setHireDate(std::string d);
 
 	//getters
-	string getName();
+	std::string getName();
 	int getNumber();
-	string getHireDate();
+	std::string getHireDate();
 
-	virtual void lunch();
-	void lunch(string n);
-
+	virtual void lunch() = 0;	//Used for dynamic binding
+	void lunch(std::string n);	//Used fir static binding
+	
 
 
 	~Employee();

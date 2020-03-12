@@ -2,47 +2,44 @@
 #include <string>
 #include "ShiftSupervisor.h"
 
-using namespace std;	//delete later
-
-ShiftSupervisor::ShiftSupervisor() 
+ShiftSupervisor::ShiftSupervisor() :anuSal(0), proBonus(0), production(0)
 {
 
-	cout << "They make $" << 0 << " a year." << endl;
+	std::cout << "They make $" << 0 << " a year." << std::endl;
 
-	cout << "Their production goal every year is 1500 units of chocolates and they have a annual production of " << 0 << " units of chocolate." << endl;
+	std::cout << "Their production goal every year is 1500 units of chocolates and they have a annual production of " << 0 << " units of chocolate." << std::endl;
 
-	
-	cout << "They have not reached their goal of 1500 units of chocolate. They do not recieve their bonus of $" << 0 << " , their salary is $" << 0 << " and they are a disgrace to the company!" << endl;
+	std::cout << "They have not reached their goal of 1500 units of chocolate. They do not recieve their bonus of $" << 0 << " , their salary is $" << 0 << " and they are a disgrace to the company!" << std::endl;
 	
 }
 
-ShiftSupervisor::ShiftSupervisor(string n, int i, string d, double a, double b, int p) :Employee(n, i, d)
+ShiftSupervisor::ShiftSupervisor(std::string n, int i, std::string d, double a, double b, int p) :Employee(n, i, d)
 {
-	cout << "They make $" << a << " a year." << endl;
+	std::cout << "They make $" << a << " a year." << std::endl;
 
-	cout << "Their production goal every year is 1500 units of chocolates and they have a annual production of " << p << " units of chocolate." << endl;
+	std::cout << "Their production goal every year is 1500 units of chocolates and they have a annual production of " << p << " units of chocolate." << std::endl;
 
-	if (p >= 1500)
+	if (p >= 1500)		//Determines if the shoft supervisor meets the production quota
 	{
-		cout << "Congratualtions, they have reached their goal of 1500 units! Their salary this year is $" << a + static_cast<double>(p) << "!" << endl;
+		std::cout << "Congratualtions, they have reached their goal of 1500 units! Their salary this year is $" << a + static_cast<double>(p) << "!" << std::endl;
 	}
 	else
 	{
-		cout << "They have not reached their goal of 1500 units of chocolate. They do not recieve their bonus of $" << p << " , their salary is $" << a << " and they are a disgrace to the company!" << endl;
+		std::cout << "They have not reached their goal of 1500 units of chocolate. They do not recieve their bonus of $" << p << " , their salary is $" << a << " and they are a disgrace to the company!" << std::endl;
 	}
 
 
 }
 
-ShiftSupervisor::ShiftSupervisor(string n, int i, string d) : anuSal(8000), production(80), proBonus(10), Employee(n, i, d)
+ShiftSupervisor::ShiftSupervisor(std::string n, int i, std::string d) : anuSal(8000), production(80), proBonus(10), Employee(n, i, d)
 {
-	cout << "They make $" << anuSal << " a year." << endl;
+	std::cout << "They make $" << anuSal << " a year." << std::endl;
 
-	cout << "Their production goal every year is 1500 units of chocolates and they have a annual production of " << production << " units of chocolate." << endl;
+	std::cout << "Their production goal every year is 1500 units of chocolates and they have a annual production of " << production << " units of chocolate.";
 
 	
-	cout << "They have not reached their goal of 1500 units of chocolate. They do not recieve their bonus of $" << proBonus 
-		<< " , their salary is $" << anuSal << " and they are a disgrace to the company!" << endl;
+	std::cout << "They have not reached their goal of 1500 units of chocolate. They do not recieve their bonus of $" << proBonus
+		<< " , their salary is $" << anuSal << " and they are a disgrace to the company!" << std::endl;
 	
 }
 
@@ -78,7 +75,7 @@ int ShiftSupervisor::getProduction()
 
 void ShiftSupervisor::lunch()
 {
-	cout << "This shift supervisor is having lunch right now." << endl;
+	std::cout << "This shift supervisor is having lunch right now." << std::endl;
 }
 
 ShiftSupervisor::~ShiftSupervisor()

@@ -3,8 +3,6 @@
 #include <string>
 #include "ProductionWorker.h"
 
-using namespace std;	//delete later
-
 class TeamLeader : public ProductionWorker {
 
 private:
@@ -15,8 +13,8 @@ private:
 public:
 
 	TeamLeader();
-	TeamLeader(string n, int i, string d, int s, double h, double b, int need, int have);
-	TeamLeader(string n, int i, string d);
+	TeamLeader(std::string n, int i, std::string d, int s, double h, double b, int need, int have);
+	TeamLeader(std::string n, int i, std::string d);
 
 	void setMonBonus(double b);
 	void setNeedHr(int n);
