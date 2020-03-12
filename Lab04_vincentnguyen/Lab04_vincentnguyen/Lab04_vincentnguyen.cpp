@@ -30,6 +30,7 @@ int main()
 	//Employee Nobody;
 	//Employee James("James", 22, "03/12/2019");
 	ProductionWorker Nobody;
+	Nobody.lunch();		//statically calls the productionworker version of lunch.
 
 	cout << endl << endl;
 

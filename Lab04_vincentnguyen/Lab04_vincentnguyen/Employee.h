@@ -1,4 +1,5 @@
 #pragma once
+//Vincent Nguyen Lab04
 #include <iostream>
 #include <string>
 
@@ -24,7 +25,7 @@ public:
 	std::string getHireDate();
 
 	virtual void lunch() = 0;	//Used for dynamic binding
-	void lunch(std::string n);	//Used fir static binding
+	void lunch(std::string n);	//Used for static binding
 	
 
 
