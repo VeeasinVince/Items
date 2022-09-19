@@ -1,2 +1,2 @@
-# THINGS
-THESE ARE MY THINGS, THEY ARE MINE.
+# Items
+These are my files.
