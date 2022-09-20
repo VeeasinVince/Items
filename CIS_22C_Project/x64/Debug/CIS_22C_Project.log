@@ -1,0 +1,11 @@
+﻿  BinarySearchTree.cpp
+  Car.cpp
+  CarLinkedList.cpp
+  CarTable.cpp
+  Listhead.cpp
+  main.cpp
+  Managers.cpp
+  Stack.cpp
+  Generating Code...
+C:\Users\aweso\Documents\CIS_22C_Project\22c_team_no_6\program_docs\Managers.cpp(507): warning C4715: 'exitManager': not all control paths return a value
+  CIS_22C_Project.vcxproj -> C:\Users\aweso\Documents\CIS_22C_Project\x64\Debug\CIS_22C_Project.exe

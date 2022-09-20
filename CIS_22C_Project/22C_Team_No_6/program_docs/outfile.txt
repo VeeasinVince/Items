@@ -1,0 +1,36 @@
+906780	i3	Bmw	220	White	Hatchback	
+669342	Panamera-4S	Porsche	510	Black	Executive	
+438790	Silverado	Chevrolet	420	White	Truck	
+787722	Wrangler	Jeep	780	Blue	SUV	
+858256	Cruze	Chevrolet	330	Silver	Hatchback	
+227789	Otto	Teufort	400	green	Economy	
+789652	Mustang GT	Ford	600	Black	SuperCar	
+247997	Cybertruck	Tesla	990	Black	SUV	
+449878	320i	Bmw	220	Black	Sedan	
+348899	TT	Audi	840	Black	Coupe	
+100432	Spark	Chevrolet	300	Blue	Economy	
+600041	Model S	Tesla	350	Red	Electric	
+400071	Cayman	Porsche	400	Yellow	Sedan	
+911100	Camaro	Chevrolet	430	Yellow	Convertible	
+118002	Yaris	Toyota	100	Orange	Economy	
+320017	S-Class	Mercedes	340	White	Coupe	
+721203	E-Class	Mercedes	280	Grey	Station wagon	
+350512	Frontier	Nissan	190	White	Pick up	
+103426	Malibu	Chevrolet	320	Red	Sedan	
+545212	Fusion	Honda	550	Silver	Sedan	
+951112	Buick	Toyota	370	Black	Van	
+109351	Rio	Kia	230	Red	Economy	
+587100	Olliver	Mazada	420	White	SUV	
+901275	Golf	Volkswagen	150	Charcoal	Hatchback	
+568221	Corvette	Chevrolet	600	Black	Convertible	
+408480	D Max	Isuzu	550	Black	SUV	
+468214	Rogue	Nissan	450	White	SUV	
+727441	Mazda6	Mazda	430	Grey	Sedan	
+468530	X5	Bmw	450	Black	SUV	
+543329	Passat	Volkswagen	300	White	Station wagon	
+177047	A6	Audi	610	Black	Sedan	
+445265	City	Honda	300	Gray	Sedan	
+753614	Escalade	Cadillac	420	Black	Elite SUV	
+273905	Ecosport	Ford	440	Teal	SUV	
+445509	Q7	Audi	450	Silver	SUV	
+656325	Impala	Chevrolet	820	Black	Sedan	
