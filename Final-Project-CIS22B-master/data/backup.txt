@@ -1,0 +1,50 @@
+0399501487	Lord of the Flies	William Golding	Mass Market Paperback	5.99	9.99	10	02/23/2020
+1717294065	Heart of Darkness	Joseph Conrad	CreateSpace Publishing Platform	5.75	9.99	12	02/23/2020
+0451526342	Animal Farm	George Orwell	Mass Market Paperback	7.46	12.99	15	02/23/2020
+0451524935	1984	George Orwell	Signet Classics	7.58	12.99	11	02/23/2020
+0140424393	Paradise Lost	John Milton	Penguin Classics	8.28	12.99	18	02/23/2020
+0451208633	The Divine Comedy	Dante Alighieri	Berkley	14.29	19.99	13	02/23/2020
+0060935464	How to Kill a Mockingbird	Harper Lee	Harper Perennial	7.19	12.99	15	02/23/2020
+1451626657	Catch 22	Joseph Heller	Simon & Schuster	14.38	19.99	17	02/23/2020
+0316769174	The Catcher in the Rye	J.D. Salinger	Back Bay Books	8.59	12.99	11	02/23/2020
+0743273565	The Great Gatsby	F. Scott Fitzgerald	Scribner	11.20	14.99	18	02/23/2020
+1451673319	Fahrenheit 451	Ray Bradbury	Simon & Schuster	8.29	12.99	16	02/23/2020
+0449213940	All is Quiet on the Western Front	Erich Maria Remarque	Ballantine Books	5.93	9.99	12	02/23/2020
+0143039431	The Grapes of Wrath	John Steinback	Penguin Classics	12.29	16.99	14	02/23/2020
+0316556343	Circe	Madeline Miller Little,	Brown and Company	8.94	14.89	84	04/10/2018
+1421576074	Assassination Classroom, Vol. 1	Yusei Matsui	VIZ Media LLC	1.46	8.64	94	12/02/2014
+031651778X	Laid-Back Camp, Vol. 1	Afro	Yen Press	3.45	10.77	53	03/27/2018
+0134498379	Starting Out with C++ from Control Structures to Objects (9th Edition)	Tony Gaddis	Pearson	109.89	138.66	14	02/23/2017
+1506713750	The Art of Super Mario Odyssey	Nintendo	Dark Horse Books	25.83	32.39	45	11/05/2019
+0060254920	Where the Wild Things Are	Maurice Sendak	HarperCollins	5.00	13.29	482	12/26/2012
+1598164554	Kino no Tabi Volume 1: Book one of THE BEAUTIFUL WORLD (v. 1)	Keiichi Sigsawa	TokyoPop	75.42	16.28	24	10/03/2006
+0735219095	Where the Crawdads Sing	Delia Owens	G.P. Putnam's Sons	7.95	9.95	234	08/14/2018
+1506709877	Mob Psycho 100 Volume 1	ONE	Dark Horse Manga	3.95	7.99	47	11/06/2018
+1641529318	How to Cook for Beginners: An Easy Cookbook for Learning the Basics	Gwyn Novak	Rockridge Press	6.98	6.99	17	11/19/2019
+9313196501	Handbook Mathematics	Amit Rastogi	Arihant	25.00	38.00	34	07/07/2018
+1457649974	Critical Thinking, Reading, and Writing	Sylvan Barnet	Bedford/St. Martin's	16.00	20.00	85	06/30/2019
+8177091875	Concept of Physics Part-1	H.C Verma	Bharati Bhawan Publishers	20.00	40.00	35	11/10/2017
+8177092324	Concept of Physics Part-2	H.C Verma	Bharati Bhawan Publishers	40.00	46.00	70	12/27/2019
+9313196484	Handbook of Physics	Amit Thivari	Arihant Publications	16.00	22.00	50	02/22/2017
+1260119106	Organic Chemistry	Janice Smith	McGraw-Hill	85.00	100.00	15	04/01/2017
+1938168364	U.S. History	P. Scott Corbett	OpenStax	31.00	36.00	50	09/18/2018
+1947172514	Biology 2e	Mary Ann Clark	OpenStax	30.00	36.00	100	05/07/2017
+1947172387	Principles of Macroeconomics 2e	Timothy Taylor	OpenStax	35.00	40.00	25	01/28/2020
+0321973615	University Physics with Modern Physics	Hugh D. Young	Pearson	30.00	36.00	150	05/17/2018
+0786965606	Player's Handbook	Wizards RPG Team	Wizards of the Coast	29.97	49.95	320	08/19/2014
+0590353403	Harry Potter And The Sorcerer's Stone	J.K. Rowling	Pottermore Publishing	11.99	26.99	309	10/01/1998
+0786965614	Dungeons & Dragons Monster Manual	Wizards RPG Team	Wizards of the Coast	27.93	49.95	352	09/30/2014
+0786965625	Dungeons & Dragons Dungeon Master's Guide	Wizards RPG Team	Wizards of the Coast	26.62	49.95	320	12/09/2014
+0786966114	Xanathar's Guide to Everything	Wizards RPG Team	Wizards of the Coast	26.49	49.95	192	11/21/2017
+0786966017	Volo's Guide to Monsters	Wizards RPG Team	Wizards of the Coast	40.52	49.95	224	11/15/2016
+0786965983	Curse of Strahd: A Dungeons & Dragons Sourcebook	Wizards RPG Team	Wizards of the Coast	29.99	49.95	256	03/15/2016
+0316441627	Season of Storms (The Witcher)	Andrzej Sapkowski	Orbit	13.24	16.99	464	11/06/2018
+0316389706	Sword of Destiny (The Witcher)	Andrzej Sapkowski	Orbit	12.96	16.99	400	12/01/2015
+0316438960	The Last Wish: Introducing the Witcher	Andrzej Sapkowski	Orbit	12.96	16.99	352	07/18/2017
+031627383X	The Lady of the Lake (The Witcher (5))	Andrzej Sapkowski	Orbit	13.39	16.99	560	03/14/2017
+0786966262	Dungeons & Dragons Waterdeep: Dungeon of the Mad Mage	Wizards RPG Team	Wizards of the Coast	27.49	49.95	256	11/20/2018
+0062515675	The Monk Who Sold His Ferrari	Robin Sharma	Jaico Publishing House	13.18	15.20	50	04/20/2018
+9788179925	The Theory of Everything	Stephen Hawking	Jaico Publishing House	15.20	18.99	30	02/10/2020
+9788172237	The Alchemist	Paulo Coelho	Harper	15.99	18.89	10	08/15/2019
+9788171673	The Blue Umbrella	Ruskin Bond	Rupa Publications	16.77	21.38	20	05/17/2019
+0345453743	The Ultimate Hitchhiker's Guide to the Galaxy	Douglas Adams	Del Rey	12.82	16.99	24	04/30/2002
